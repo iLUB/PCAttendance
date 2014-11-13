@@ -1,0 +1,12 @@
+.row {
+	height: 2em;
+}
+
+.ilpa_delete_button {
+	margin-right: .25em;
+}
+
+.ilpa_column {
+	min-width: 2em;
+	text-align: center;
+}

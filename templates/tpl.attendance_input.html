@@ -1,0 +1,19 @@
+<table id="attendance">
+	<tr>
+		<th></th>
+		<th class="ilpa_label">{LABEL_HEADER}</th>
+		<!-- BEGIN column_header -->
+		<th class="ilpa_column">{COLUMN_HEADER}</th>
+		<!-- END column_header -->
+	</tr>
+	<!-- BEGIN row -->
+	<tr class="row">
+		<td class="ilpa_button"><img class="ilpa_delete_button" src="{IMG_DEL}" /></td>
+		<td class="ilpa_label"><input type="text" value="{LABEL_VALUE}" name="{POSTVAR}[{ROW_ID}][label]" maxlength="{LABEL_LENGTH}" /></td>
+		<!-- BEGIN column -->
+		<td class="ilpa_column"><input type="checkbox" value="{VALUE}" name="{POSTVAR}[{ROW_ID}][{COLUMN_ID}]"<!-- BEGIN checked -->checked="CHECKED"<!-- END checked --> /></td>
+		<!-- END column -->
+	</tr>
+	<!-- END row -->
+</table>
+<img id="ilpa_add" src="{IMG_ADD}" />

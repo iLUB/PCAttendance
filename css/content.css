@@ -1,0 +1,47 @@
+.available {
+	background-color: #6FDE79;
+}
+
+
+.unavailable {
+	background: repeating-linear-gradient(45deg,
+		#606dbc,
+		#606dbc 10px,
+		#465298 10px,
+		#465298 20px);
+}
+
+table.attendance {
+	border-collapse: collapse;
+}
+.attendance th {
+	padding-left: 1em;
+	padding-right: 1em;
+}
+
+.attendance td {
+	border: 1px solid #000000;
+}
+
+td.label {
+	padding-right: 1em;
+	vertical-align: middle;
+	border: none;
+	text-align: right;
+}
+
+.middle {
+	text-align: center
+}
+
+.right{
+	text-align: right;
+}
+
+.attendance_container {
+	display: inline-block;
+}
+
+.attendance_header {
+	text-align: left;
+}

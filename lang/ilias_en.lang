@@ -1,0 +1,11 @@
+attendance#:#Attendance
+create#:#Create attendance
+edit#:#Edit attendance
+attendance_input_title#:#Attendance overview
+cmd_insert#:#Insert Personal Attendance
+morning#:#Morning
+afternoon#:#Afternoon
+alignment#:#Alignment
+alignment_info#:#Display the attendance overview on the left, the centre or the right side of the page.
+disp_weekends#:#Display Saturday and Sunday
+disp_weekends_info#:#Show or hide Saturday and Sunday in the attendance overview.
